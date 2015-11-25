@@ -31,12 +31,12 @@
      {
       "field_name": "theme",
       "label": "Theme",
-      "form_placeholder": "The AGIFT top level government function to which the resource relates.",
+      "form_placeholder": "The AGIFT top level government function to which the resource relates."
     },
     {
       "field_name": "language",
       "label": "Language",
-      "form_placeholder": "The language of the dataset.",
+      "form_placeholder": "The language of the dataset."
     },
     {
       "field_name": "license_id",
