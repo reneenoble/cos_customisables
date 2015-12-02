@@ -33,6 +33,34 @@
       "label": "Theme",
       "form_placeholder": "The AGIFT top level government function to which the resource relates."
     },
+ {
+      "field_name": "theme",
+      "label": "Theme",
+      "preset": "select",
+      "choices": [
+        {
+          "value": "bactrian",
+          "label": "Bactrian Camel"
+        },
+        {
+          "value": "hybrid",
+          "label": "Hybrid Camel"
+        },
+        {
+          "value": "f2hybrid",
+          "label": "F2 Hybrid Camel"
+        },
+        {
+          "value": "snowwhite",
+          "label": "Snow-white Dromedary"
+        },
+        {
+          "value": "black",
+          "label": "Black Camel"
+        }
+      ]
+    },
+
     {
       "field_name": "language",
       "label": "Language",
@@ -44,6 +72,8 @@
       "form_snippet": "license.html",
       "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
     },
+
+    
     {
       "field_name": "owner_org",
       "label": "Organization",
