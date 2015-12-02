@@ -28,11 +28,7 @@
       "preset": "tag_string_autocomplete",
       "form_placeholder": "eg. economy, mental health, government"
     },
-     {
-      "field_name": "theme",
-      "label": "Theme",
-      "form_placeholder": "The AGIFT top level government function to which the resource relates."
-    },
+
  {
       "field_name": "theme",
       "label": "Theme",
