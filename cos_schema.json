@@ -71,7 +71,7 @@
       "field_name": "datastatus",
       "label": "Data Status",
       "preset": "select",
-      "form_placeholder": "Active (to be updated) or Inactive (historic)"
+      "form_placeholder": "Active (to be updated) or Inactive (historic)",
       "choices": [
         {
           "value": "active",
@@ -87,7 +87,7 @@
       "field_name": "updatefrequency",
       "label": "Update Frequency",
       "preset": "select",
-      "form_placeholder": "How often the dataset is updated"
+      "form_placeholder": "How often the dataset is updated",
       "choices": [
         {
           "value": "daily",
@@ -123,7 +123,7 @@
       "field_name": "exposecontact",
       "label": "Expose User Contact Information",
       "preset": "select",
-      "form_placeholder": "Release contact details to the public?"
+      "form_placeholder": "Release contact details to the public?",
       "choices": [
         {
           "value": "yes",
