@@ -26,7 +26,7 @@
       "field_name": "tag_string",
       "label": "Tags",
       "preset": "tag_string_autocomplete",
-      "form_placeholder": "eg. economy, mental health, government"
+      "form_placeholder": "Keywords, subjects, topics of dataset"
     },
     {
       "field_name": "theme",
@@ -71,6 +71,7 @@
       "field_name": "datastatus",
       "label": "Data Status",
       "preset": "select",
+      "form_placeholder": "Active (to be updated) or Inactive (historic)"
       "choices": [
         {
           "value": "active",
@@ -86,6 +87,7 @@
       "field_name": "updatefrequency",
       "label": "Update Frequency",
       "preset": "select",
+      "form_placeholder": "How often the dataset is updated"
       "choices": [
         {
           "value": "daily",
@@ -121,6 +123,7 @@
       "field_name": "exposecontact",
       "label": "Expose User Contact Information",
       "preset": "select",
+      "form_placeholder": "Release contact details to the public?"
       "choices": [
         {
           "value": "yes",
