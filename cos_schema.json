@@ -28,12 +28,7 @@
       "preset": "tag_string_autocomplete",
       "form_placeholder": "eg. economy, mental health, government"
     },
-     {
-      "field_name": "theme",
-      "label": "Theme",
-      "form_placeholder": "The AGIFT top level government function to which the resource relates."
-    },
- {
+    {
       "field_name": "theme",
       "label": "Theme",
       "preset": "select",
@@ -72,8 +67,71 @@
       "form_snippet": "license.html",
       "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
     },
-
-    
+    {
+      "field_name": "datastatus",
+      "label": "Data Status",
+      "preset": "select",
+      "choices": [
+        {
+          "value": "active",
+          "label": "Active"
+        },
+        {
+          "value": "inactive",
+          "label": "Inactive"
+        },
+      ]
+    },
+    {
+      "field_name": "updatefrequency",
+      "label": "Update Frequency",
+      "preset": "select",
+      "choices": [
+        {
+          "value": "daily",
+          "label": "Daily"
+        },
+        {
+          "value": "weekly",
+          "label": "Weekly"
+        },
+        {
+          "value": "monthly",
+          "label": "Monthly"
+        },
+        {
+          "value": "quarterly",
+          "label": "Quarterly"
+        },
+        {
+          "value": "yearly",
+          "label": "Yearly"
+        },
+        {
+          "value": "asrequired",
+          "label": "As Required"
+        },
+        {
+          "value": "never",
+          "label": "Never"
+        },
+      ]
+    },
+    {
+      "field_name": "exposecontact",
+      "label": "Expose User Contact Information",
+      "preset": "select",
+      "choices": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        },
+      ]
+    },
     {
       "field_name": "owner_org",
       "label": "Organization",
@@ -95,13 +153,13 @@
     {
       "field_name": "author",
       "label": "Author",
-      "form_placeholder": "Joe Bloggs",
+      "form_placeholder": "Jane Bloggs",
       "display_property": "dc:creator"
     },
     {
       "field_name": "author_email",
       "label": "Author Email",
-      "form_placeholder": "joe@example.com",
+      "form_placeholder": "jane@example.com",
       "display_property": "dc:creator",
       "display_snippet": "email.html",
       "display_email_name_field": "author"
@@ -109,13 +167,13 @@
     {
       "field_name": "maintainer",
       "label": "Maintainer",
-      "form_placeholder": "Joe Bloggs",
+      "form_placeholder": "Jane Bloggs",
       "display_property": "dc:contributor"
     },
     {
       "field_name": "maintainer_email",
       "label": "Maintainer Email",
-      "form_placeholder": "joe@example.com",
+      "form_placeholder": "jane@example.com",
       "display_property": "dc:contributor",
       "display_snippet": "email.html",
       "display_email_name_field": "maintainer"
