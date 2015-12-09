@@ -135,6 +135,12 @@
         }
       ]
     },
+        {
+      "field_name": "notes",
+      "label": "Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "eg. Some useful notes about the data"
+    },
     {
       "field_name": "owner_org",
       "label": "Organization",
@@ -152,34 +158,6 @@
       "label": "Version",
       "validators": "ignore_missing unicode package_version_validator",
       "form_placeholder": "1.0"
-    },
-    {
-      "field_name": "author",
-      "label": "Author",
-      "form_placeholder": "Jane Bloggs",
-      "display_property": "dc:creator"
-    },
-    {
-      "field_name": "author_email",
-      "label": "Author Email",
-      "form_placeholder": "jane@example.com",
-      "display_property": "dc:creator",
-      "display_snippet": "email.html",
-      "display_email_name_field": "author"
-    },
-    {
-      "field_name": "maintainer",
-      "label": "Maintainer",
-      "form_placeholder": "Jane Bloggs",
-      "display_property": "dc:contributor"
-    },
-    {
-      "field_name": "maintainer_email",
-      "label": "Maintainer Email",
-      "form_placeholder": "jane@example.com",
-      "display_property": "dc:contributor",
-      "display_snippet": "email.html",
-      "display_email_name_field": "maintainer"
     }
   ],
   "resource_fields": [
