@@ -120,28 +120,6 @@
       ]
     },
     {
-      "field_name": "exposecontact",
-      "label": "Expose User Contact Information",
-      "preset": "select",
-      "form_placeholder": "Release contact details to the public?",
-      "choices": [
-        {
-          "value": "yes",
-          "label": "Yes"
-        },
-        {
-          "value": "no",
-          "label": "No"
-        }
-      ]
-    },
-        {
-      "field_name": "notes",
-      "label": "Description",
-      "form_snippet": "markdown.html",
-      "form_placeholder": "eg. Some useful notes about the data"
-    },
-    {
       "field_name": "owner_org",
       "label": "Organization",
       "preset": "dataset_organization"
@@ -158,6 +136,28 @@
       "label": "Version",
       "validators": "ignore_missing unicode package_version_validator",
       "form_placeholder": "1.0"
+    },
+    {
+      "field_name": "contact",
+      "label": "Contact Details",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "Email adress, phone number or other contact methods that can be used to equire about the data set.  Note this information won't be released to the public unless the 'Expose Contact Information' option is set to 'Yes' below."
+    },
+    {
+      "field_name": "exposecontact",
+      "label": "Expose Contact Information",
+      "preset": "select",
+      "form_placeholder": "Release contact details to the public?",
+      "choices": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ]
     }
   ],
   "resource_fields": [
