@@ -141,7 +141,7 @@
       "field_name": "contact",
       "label": "Contact Details",
       "form_snippet": "markdown.html",
-      "form_placeholder": "Email adress, phone number or other contact methods that can be used to equire about the data set.  Note this information won't be released to the public unless the 'Expose Contact Information' option is set to 'Yes' below."
+      "form_placeholder": "Email address, phone number or other contact methods that can be used to enquire about the data set.  Note this information won't be released to the public unless the 'Expose Contact Information' option is set to 'Yes' below."
     },
     {
       "field_name": "exposecontact",
